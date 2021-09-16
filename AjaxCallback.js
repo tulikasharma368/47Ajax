@@ -27,7 +27,6 @@ function makeAJAXCall(methodType, url, callback, async = true, data = null){
 }
 
 const getURL = "http://127.0.0.1:3000/employee/";
-
 function getUserDetails(data){
     console.log("Get user data at: " + showTime() + " Data: " + data);
 }
